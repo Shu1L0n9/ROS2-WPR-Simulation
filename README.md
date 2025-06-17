@@ -1,12 +1,18 @@
-# WPR系列机器人ROS2仿真工具
+# WPR 系列机器人 ROS2 仿真实验
 
 ## 系统版本
 
 - ROS2 Humble (Ubuntu 22.04)
 
-## 使用说明
+## 实验说明
+### 1. 海龟 8 字实验
 
-### 一、 启智ROS机器人
+```
+ros2 run turtlesim turtlesim_node
+python ros_2_exp_1.py
+```
+
+### 2. WPR 机器人实验
 1. 获取源码:
 ```
 cd ~/ros2_ws/src/
